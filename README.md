@@ -21,6 +21,9 @@ The GPACalculatorApp class serves as the main driver for the GPA calculation app
 
 The class calculates the total grade points and units across all courses and computes the GPA to two decimal places. The result is then displayed in a tabular form, including the course name and code, unit, grade, and grade unit. The GPA is presented with a welcoming message, and a horizontal line separates the header from the tabular data.
 
+# Formular used:
+Quality point = course unit * grade unit GPA = total quality point / total grade unit
+
 # User Interaction
 Upon execution, the program provides a welcoming message and prompts the user to input the number of courses they wish to evaluate. For each course, the user is prompted to enter the course name, code, unit, and score. The program then processes this information and displays the GPA result in a clear and organized tabular format.
 
